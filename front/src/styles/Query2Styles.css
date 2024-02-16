@@ -1,0 +1,63 @@
+/* Container for the entire Query2 component */
+.query2-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #983535;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+  .query2-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form styling */
+  .query-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form item styling */
+  .query-form .ant-form-item {
+    margin-bottom: 16px;
+  }
+  
+  /* Label styling */
+  .query-form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  /* Input, Select, and Button styling */
+  .query-form .ant-picker, .query-form .ant-select, .query-form .ant-btn {
+    width: 100%;
+  }
+  
+  /* Query Result styling */
+  .query-result {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Result header styling */
+  .query-result h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  /* Table styling */
+  .query-result .ant-table {
+    background-color: #fff;
+  }
+  

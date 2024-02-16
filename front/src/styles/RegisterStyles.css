@@ -1,0 +1,136 @@
+/* RegisterPrisonerStyles.css */
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(251, 251, 251);
+  
+}
+
+.register-form-container {
+  background-color:rgb(251, 251, 251);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 72%;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  right: -190px;
+  top: -11px;
+  border-radius: 20px;
+  
+  border: 2px solid #0c0000;
+}
+
+/* Center the h1 tag */
+h1.text-center {
+  margin-top: 0; /* Add this to remove any default margin */
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Input field styling */
+.input-field {
+  background-color: #d3c5d0;
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #0c0000;
+  border-radius: 5px;
+  
+}
+
+/* Radio button group styling */
+.radio-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+/* Button styling */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #4c7eb4;
+  color: #ebe9e9;
+}
+
+/* Register button styling */
+.register-button {
+  width: 100%;
+  background-color: #191d04;
+  color: #fff;
+  margin-top: 15px;
+  font-style: oblique;
+}
+.sidebar2 p {
+  font-weight: bold;
+  font-style: italic;
+  color: #cfa59c; /* Change to the color of your choice */
+}
+
+.sidebar2 {
+  background-color: rgb(6, 0, 0);
+  color: white;
+  width: 340px;
+  padding: 18px 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  position: absolute;
+  left: 0px; 
+  bottom: -8px; 
+  border-top: 2px solid rgb(42, 6, 6);
+  height: 80vh;
+  z-index: 1;
+}
+
+.link-container1 {
+  margin: 10px 0;
+  border-bottom: 1px solid rgb(160, 14, 14);
+  transition: background-color 0.2s;
+  width: 90%;
+  text-align: left;
+  padding: 10px;
+}
+
+/* Hover effect for link containers */
+.link-container1:hover {
+  background-color: rgb(191, 174, 174);
+}
+
+/* Style for sidebar links */
+.sidebar-link1 {
+  text-decoration: wavy;
+  color: rgb(249, 247, 247);
+  font-family: 'Your Custom Font', sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  width: 100px;
+}
+.header1 {
+  background-attachment: fixed;
+  background-color: #000000;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-bottom: 16px solid rgb(160, 14, 14);
+  border-width: 10px;
+  margin-bottom: 20px;
+  height: 10vh;
+}
+.header-text1 {
+  font-size: 40px;
+  color: #ffffff;
+}

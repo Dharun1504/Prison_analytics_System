@@ -1,0 +1,68 @@
+/* Container for the entire Query1 component */
+.query1-container {
+    max-width: 4000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 6px solid #080000;
+    border-radius: 2  px;
+    background-color: #f3e9e9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+  }
+  
+  /* Header styling */
+  .query1-container h2 {
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  .form button{
+    align-self: center;
+  }
+
+  
+  /* Form item styling */
+  .form .ant-form-item {
+    margin-bottom: 16px;
+  }
+  
+  /* Label styling */
+  .form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 200px;
+    color: #0a0000;
+  }
+  
+  /* Input, Select, and Button styling */
+  .form .ant-picker, .form .ant-select, .form .ant-btn {
+    width: 100%;
+  }
+  
+  /* Query Result styling */
+  .queryresult {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Result header styling */
+  .queryresult h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  /* Table styling */
+  .queryresult .ant-table {
+    background-color: #fff;
+  }
+  
+  .header334{
+    justify-content: center;
+    align-items: center;
+  }
